@@ -1,0 +1,426 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		34E6EFF01B6C217700C671EF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34E6EFEF1B6C217700C671EF /* AppDelegate.swift */; };
+		34E6EFF21B6C217700C671EF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34E6EFF11B6C217700C671EF /* ViewController.swift */; };
+		34E6EFF51B6C217700C671EF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 34E6EFF31B6C217700C671EF /* Main.storyboard */; };
+		34E6EFF71B6C217800C671EF /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 34E6EFF61B6C217800C671EF /* Images.xcassets */; };
+		34E6EFFA1B6C217800C671EF /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 34E6EFF81B6C217800C671EF /* LaunchScreen.xib */; };
+		34E6F0061B6C217800C671EF /* VayKayTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34E6F0051B6C217800C671EF /* VayKayTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		34E6F0001B6C217800C671EF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 34E6EFE21B6C217700C671EF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 34E6EFE91B6C217700C671EF;
+			remoteInfo = VayKay;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		34E6EFEA1B6C217700C671EF /* VayKay.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VayKay.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		34E6EFEE1B6C217700C671EF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		34E6EFEF1B6C217700C671EF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		34E6EFF11B6C217700C671EF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		34E6EFF41B6C217700C671EF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		34E6EFF61B6C217800C671EF /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		34E6EFF91B6C217800C671EF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		34E6EFFF1B6C217800C671EF /* VayKayTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VayKayTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		34E6F0041B6C217800C671EF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		34E6F0051B6C217800C671EF /* VayKayTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VayKayTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		34E6EFE71B6C217700C671EF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		34E6EFFC1B6C217800C671EF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		34E6EFE11B6C217700C671EF = {
+			isa = PBXGroup;
+			children = (
+				34E6EFEC1B6C217700C671EF /* VayKay */,
+				34E6F0021B6C217800C671EF /* VayKayTests */,
+				34E6EFEB1B6C217700C671EF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		34E6EFEB1B6C217700C671EF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				34E6EFEA1B6C217700C671EF /* VayKay.app */,
+				34E6EFFF1B6C217800C671EF /* VayKayTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		34E6EFEC1B6C217700C671EF /* VayKay */ = {
+			isa = PBXGroup;
+			children = (
+				34E6EFEF1B6C217700C671EF /* AppDelegate.swift */,
+				34E6EFF11B6C217700C671EF /* ViewController.swift */,
+				34E6EFF31B6C217700C671EF /* Main.storyboard */,
+				34E6EFF61B6C217800C671EF /* Images.xcassets */,
+				34E6EFF81B6C217800C671EF /* LaunchScreen.xib */,
+				34E6EFED1B6C217700C671EF /* Supporting Files */,
+			);
+			path = VayKay;
+			sourceTree = "<group>";
+		};
+		34E6EFED1B6C217700C671EF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				34E6EFEE1B6C217700C671EF /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		34E6F0021B6C217800C671EF /* VayKayTests */ = {
+			isa = PBXGroup;
+			children = (
+				34E6F0051B6C217800C671EF /* VayKayTests.swift */,
+				34E6F0031B6C217800C671EF /* Supporting Files */,
+			);
+			path = VayKayTests;
+			sourceTree = "<group>";
+		};
+		34E6F0031B6C217800C671EF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				34E6F0041B6C217800C671EF /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		34E6EFE91B6C217700C671EF /* VayKay */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 34E6F0091B6C217800C671EF /* Build configuration list for PBXNativeTarget "VayKay" */;
+			buildPhases = (
+				34E6EFE61B6C217700C671EF /* Sources */,
+				34E6EFE71B6C217700C671EF /* Frameworks */,
+				34E6EFE81B6C217700C671EF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = VayKay;
+			productName = VayKay;
+			productReference = 34E6EFEA1B6C217700C671EF /* VayKay.app */;
+			productType = "com.apple.product-type.application";
+		};
+		34E6EFFE1B6C217800C671EF /* VayKayTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 34E6F00C1B6C217800C671EF /* Build configuration list for PBXNativeTarget "VayKayTests" */;
+			buildPhases = (
+				34E6EFFB1B6C217800C671EF /* Sources */,
+				34E6EFFC1B6C217800C671EF /* Frameworks */,
+				34E6EFFD1B6C217800C671EF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				34E6F0011B6C217800C671EF /* PBXTargetDependency */,
+			);
+			name = VayKayTests;
+			productName = VayKayTests;
+			productReference = 34E6EFFF1B6C217800C671EF /* VayKayTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		34E6EFE21B6C217700C671EF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = "Nelson Taylor";
+				TargetAttributes = {
+					34E6EFE91B6C217700C671EF = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					34E6EFFE1B6C217800C671EF = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = 34E6EFE91B6C217700C671EF;
+					};
+				};
+			};
+			buildConfigurationList = 34E6EFE51B6C217700C671EF /* Build configuration list for PBXProject "VayKay" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 34E6EFE11B6C217700C671EF;
+			productRefGroup = 34E6EFEB1B6C217700C671EF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				34E6EFE91B6C217700C671EF /* VayKay */,
+				34E6EFFE1B6C217800C671EF /* VayKayTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		34E6EFE81B6C217700C671EF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				34E6EFF51B6C217700C671EF /* Main.storyboard in Resources */,
+				34E6EFFA1B6C217800C671EF /* LaunchScreen.xib in Resources */,
+				34E6EFF71B6C217800C671EF /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		34E6EFFD1B6C217800C671EF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		34E6EFE61B6C217700C671EF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				34E6EFF21B6C217700C671EF /* ViewController.swift in Sources */,
+				34E6EFF01B6C217700C671EF /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		34E6EFFB1B6C217800C671EF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				34E6F0061B6C217800C671EF /* VayKayTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		34E6F0011B6C217800C671EF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 34E6EFE91B6C217700C671EF /* VayKay */;
+			targetProxy = 34E6F0001B6C217800C671EF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		34E6EFF31B6C217700C671EF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				34E6EFF41B6C217700C671EF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		34E6EFF81B6C217800C671EF /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				34E6EFF91B6C217800C671EF /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		34E6F0071B6C217800C671EF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		34E6F0081B6C217800C671EF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		34E6F00A1B6C217800C671EF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = VayKay/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		34E6F00B1B6C217800C671EF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = VayKay/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		34E6F00D1B6C217800C671EF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = VayKayTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VayKay.app/VayKay";
+			};
+			name = Debug;
+		};
+		34E6F00E1B6C217800C671EF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = VayKayTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VayKay.app/VayKay";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		34E6EFE51B6C217700C671EF /* Build configuration list for PBXProject "VayKay" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				34E6F0071B6C217800C671EF /* Debug */,
+				34E6F0081B6C217800C671EF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		34E6F0091B6C217800C671EF /* Build configuration list for PBXNativeTarget "VayKay" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				34E6F00A1B6C217800C671EF /* Debug */,
+				34E6F00B1B6C217800C671EF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		34E6F00C1B6C217800C671EF /* Build configuration list for PBXNativeTarget "VayKayTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				34E6F00D1B6C217800C671EF /* Debug */,
+				34E6F00E1B6C217800C671EF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 34E6EFE21B6C217700C671EF /* Project object */;
+}
